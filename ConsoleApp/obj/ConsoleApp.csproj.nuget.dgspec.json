@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Revy\\Desktop\\SoftwareDev_1stSemester\\DatabasesForDevelopers\\SQL_Queries\\1stCompulsory\\ConsoleApp\\ConsoleApp\\ConsoleApp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Revy\\Desktop\\SoftwareDev_1stSemester\\DatabasesForDevelopers\\SQL_Queries\\1stCompulsory\\ConsoleApp\\ConsoleApp\\ConsoleApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Revy\\Desktop\\SoftwareDev_1stSemester\\DatabasesForDevelopers\\SQL_Queries\\1stCompulsory\\ConsoleApp\\ConsoleApp\\ConsoleApp.csproj",
+        "projectName": "ConsoleApp",
+        "projectPath": "C:\\Users\\Revy\\Desktop\\SoftwareDev_1stSemester\\DatabasesForDevelopers\\SQL_Queries\\1stCompulsory\\ConsoleApp\\ConsoleApp\\ConsoleApp.csproj",
+        "packagesPath": "C:\\Users\\Revy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Revy\\Desktop\\SoftwareDev_1stSemester\\DatabasesForDevelopers\\SQL_Queries\\1stCompulsory\\ConsoleApp\\ConsoleApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Revy\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\Revy\\.dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
