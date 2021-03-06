@@ -43,12 +43,12 @@ namespace ConsoleApp
                 {
                     Console.WriteLine("Type Department ID:");
                     string DNumber = Console.ReadLine();
-                    query = "SELECT * FROM usp_GetDepartment (" + DNumber + ");";
+                    query = " EXEC usp_GetDepartment ,@DNumber = " + DNumber;
                     ExecuteQuery(query, 2);
                     break;
                 }
                 case 3:
-                    query = "SELECT * FROM usp_GetAllDepartments ();";
+                    query = "EXEC usp_GetAllDepartments";
                     ExecuteQuery(query, 3);
                     break;
                 case 4:
